@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    padding-top: 20px;
+    background-image: url(/img.svg);
+    
+}
+
+.container {
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    transform: translateY(50%);
+    
+}
+
+h1 {
+    padding-top: 25px;
+
+}
+
+.conteudo {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+
+
+}
+
+.conteudo input,
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(46, 137, 198);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resultado{
+    padding: 20px;
+}
